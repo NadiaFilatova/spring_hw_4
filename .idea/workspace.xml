@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5717fca1-2ac7-4928-b52d-6a13488a1baa" name="Changes" comment="added some test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/CustomerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/CustomerRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/ItemServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/OrdersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/OrdersServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/SpringDataApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/SpringDataApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +63,25 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.ItemServiceTest.testChangePriceByItemName">
     <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_4.test.*" />
+          <option name="PATTERN" value="org.hw_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.CustomerControllerTest" />
+      <option name="PACKAGE_NAME" value="org.hw_4" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.CustomerControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,12 +91,12 @@
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_4.test.*" />
+          <option name="PATTERN" value="org.hw_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemServiceTest" />
+      <option name="PACKAGE_NAME" value="org.hw_4" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.ItemServiceTest" />
       <option name="METHOD_NAME" value="testChangePriceByItemName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -96,12 +107,12 @@
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_4.test.*" />
+          <option name="PATTERN" value="org.hw_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemServiceTest" />
+      <option name="PACKAGE_NAME" value="org.hw_4" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.ItemServiceTest" />
       <option name="METHOD_NAME" value="testChangePriceByItemName2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -112,12 +123,12 @@
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_4.test.*" />
+          <option name="PATTERN" value="org.hw_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.OrdersServiceTest" />
+      <option name="PACKAGE_NAME" value="org.hw_4" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.OrdersServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,12 +138,12 @@
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.hw_4.test.*" />
+          <option name="PATTERN" value="org.hw_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.OrdersServiceTest" />
+      <option name="PACKAGE_NAME" value="org.hw_4" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.OrdersServiceTest" />
       <option name="METHOD_NAME" value="testSaveOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -259,7 +270,7 @@
       <updated>1685632998423</updated>
       <workItem from="1685632999463" duration="1000" />
       <workItem from="1685732495601" duration="6446000" />
-      <workItem from="1686218920504" duration="12688000" />
+      <workItem from="1686218920504" duration="13144000" />
     </task>
     <task id="LOCAL-00001" summary="added some test">
       <created>1686237459808</created>
@@ -275,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686255167431</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some test">
+      <created>1686257192873</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686257192873</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

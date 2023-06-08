@@ -1,4 +1,4 @@
-package org.hw_4.test;
+package org.hw_4;
 
 import org.junit.Before;
 import org.junit.Test;

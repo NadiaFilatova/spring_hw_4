@@ -1,4 +1,4 @@
-package org.hw_4.test;
+package org.hw_4;
 
 import org.hw_4.controller.CustomerController;
 import org.hw_4.entity.Customer;

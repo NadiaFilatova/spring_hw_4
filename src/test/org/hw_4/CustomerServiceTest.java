@@ -1,4 +1,4 @@
-package org.hw_4.test;
+package org.hw_4;
 
 import org.hw_4.entity.Customer;
 import org.hw_4.repository.CustomerRepository;

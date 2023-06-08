@@ -1,4 +1,4 @@
-package org.hw_4.test;
+package org.hw_4;
 
 
 import org.springframework.boot.test.context.SpringBootTest;
