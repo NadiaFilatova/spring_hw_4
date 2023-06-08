@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5717fca1-2ac7-4928-b52d-6a13488a1baa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/OrdersServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/SpringDataApplicationTests.java" afterDir="false" />
+    <list default="true" id="5717fca1-2ac7-4928-b52d-6a13488a1baa" name="Changes" comment="added some test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,22 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.OrdersServiceTest.testSaveOrder">
+  <component name="RunManager" selected="JUnit.CustomerControllerTest">
+    <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hw_4.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hw_4.test" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.CustomerControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringData" />
       <extension name="coverage">
@@ -96,21 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hw_4.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrdersServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringData" />
       <extension name="coverage">
@@ -138,6 +134,13 @@
       <option name="MAIN_CLASS_NAME" value="org.hw_4.test.OrdersServiceTest" />
       <option name="METHOD_NAME" value="testSaveOrder" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringData" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hw_4.SpringDataApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,20 +230,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.CustomerControllerTest" />
       <item itemvalue="JUnit.ItemRepositoryTest" />
       <item itemvalue="JUnit.ItemRepositoryTest.testFindAllItems" />
-      <item itemvalue="JUnit.ItemServiceTest" />
       <item itemvalue="JUnit.OrdersServiceTest" />
       <item itemvalue="JUnit.OrdersServiceTest.testSaveOrder" />
+      <item itemvalue="Spring Boot.SpringDataApplication" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerControllerTest" />
         <item itemvalue="JUnit.OrdersServiceTest.testSaveOrder" />
         <item itemvalue="JUnit.OrdersServiceTest" />
         <item itemvalue="JUnit.ItemRepositoryTest" />
         <item itemvalue="JUnit.ItemRepositoryTest.testFindAllItems" />
-        <item itemvalue="JUnit.ItemServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,11 +258,23 @@
       <updated>1685632998423</updated>
       <workItem from="1685632999463" duration="1000" />
       <workItem from="1685732495601" duration="6446000" />
-      <workItem from="1686218920504" duration="8447000" />
+      <workItem from="1686218920504" duration="10835000" />
     </task>
+    <task id="LOCAL-00001" summary="added some test">
+      <created>1686237459808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686237459808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some test" />
   </component>
 </project>
