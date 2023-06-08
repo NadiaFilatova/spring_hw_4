@@ -11,6 +11,7 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.aspectj.bridge.MessageUtil.fail;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -43,8 +44,7 @@ public class ItemServiceTest {
     //метод setUp()- використовується у фреймворку тестування Mockito і виконується перед кожним тестом у класі ItemServiceTest
     @BeforeEach
     public void setUp() {
-        MockitoAnnotations.openMocks(this
-        );
+        MockitoAnnotations.openMocks(this);
         itemService = new ItemService(itemRepository);
     }
 
@@ -98,5 +98,35 @@ public class ItemServiceTest {
         verify(itemRepository, times(1)).setPriceForVacuumCleaner();
         verifyNoMoreInteractions(itemRepository);
     }
+
+    // цей тест падає. знайти помилку
+    @Test
+    public void testChangePriceByItemName() {
+        Item item = new Item();
+        item.setId(1);
+        item.setItemName("Item1");
+        item.setPrice(100L);
+        when(itemRepository.findById(1)).thenReturn(Optional.of(item));
+
+        Item finalItem = item;
+        doAnswer(invocationOnMock -> {
+            finalItem.setPrice(200L);
+            return null;
+        }).when(itemRepository).updatePriceByItemName(200L, "Item1");
+
+        item = itemRepository.findById(1).get();
+        assertEquals(200, item.getPrice());
+
+        verify(itemRepository, times(1)).updatePriceByItemName(200L, "Item1");
+        verifyNoMoreInteractions(itemRepository);
+        // Act
+        itemService.changePriceForVacuumCleaner();
+
+        // Assert
+        // verify(itemRepository, times(1)).setPriceForVacuumCleaner();
+        // verifyNoMoreInteractions(itemRepository);
+    }
+
+
 }
 

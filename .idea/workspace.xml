@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5717fca1-2ac7-4928-b52d-6a13488a1baa" name="Changes" comment="added some test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/CustomerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hw_4/test/ItemServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CustomerControllerTest">
+  <component name="RunManager" selected="JUnit.ItemServiceTest.testChangePriceByItemName">
     <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringData" />
       <extension name="coverage">
@@ -76,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemServiceTest.testChangePriceByItemName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
@@ -85,13 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemServiceTest" />
+      <option name="METHOD_NAME" value="testChangePriceByItemName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemRepositoryTest.testFindAllItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemServiceTest.testChangePriceByItemName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringData" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +101,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.hw_4.test" />
-      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindAllItems" />
+      <option name="MAIN_CLASS_NAME" value="org.hw_4.test.ItemServiceTest" />
+      <option name="METHOD_NAME" value="testChangePriceByItemName2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,8 +232,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CustomerControllerTest" />
-      <item itemvalue="JUnit.ItemRepositoryTest" />
-      <item itemvalue="JUnit.ItemRepositoryTest.testFindAllItems" />
+      <item itemvalue="JUnit.ItemServiceTest.testChangePriceByItemName" />
+      <item itemvalue="JUnit.ItemServiceTest.testChangePriceByItemName2" />
       <item itemvalue="JUnit.OrdersServiceTest" />
       <item itemvalue="JUnit.OrdersServiceTest.testSaveOrder" />
       <item itemvalue="Spring Boot.SpringDataApplication" />
@@ -240,11 +241,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemServiceTest.testChangePriceByItemName" />
+        <item itemvalue="JUnit.ItemServiceTest.testChangePriceByItemName2" />
         <item itemvalue="JUnit.CustomerControllerTest" />
         <item itemvalue="JUnit.OrdersServiceTest.testSaveOrder" />
         <item itemvalue="JUnit.OrdersServiceTest" />
-        <item itemvalue="JUnit.ItemRepositoryTest" />
-        <item itemvalue="JUnit.ItemRepositoryTest.testFindAllItems" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,7 @@
       <updated>1685632998423</updated>
       <workItem from="1685632999463" duration="1000" />
       <workItem from="1685732495601" duration="6446000" />
-      <workItem from="1686218920504" duration="10835000" />
+      <workItem from="1686218920504" duration="12688000" />
     </task>
     <task id="LOCAL-00001" summary="added some test">
       <created>1686237459808</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686237459808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added some test">
+      <created>1686255167431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686255167431</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

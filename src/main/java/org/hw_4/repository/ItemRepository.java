@@ -10,5 +10,9 @@ import org.springframework.stereotype.Repository;
 public interface ItemRepository extends JpaRepository<Item, Integer> {
     @Modifying
     @Query("update Item i set i.price = 200 where i.itemName='Vacuum cleaner'")
-    public void setPriceForVacuumCleaner();
+    void setPriceForVacuumCleaner();
+
+    @Modifying
+    @Query("update Item i set i.price = ?1 where i.itemName=?2")
+    void updatePriceByItemName(long price, String itemName);
 }
